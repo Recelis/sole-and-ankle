@@ -9,16 +9,20 @@ const App = () => {
 
   return (
     <>
-      <Header />
+      
       <Main>
         <ShoeIndex sortId={sortId} setSortId={setSortId} />
       </Main>
+      <Header />
+      
     </>
   );
 };
 
 const Main = styled.main`
-  padding: 64px 32px;
+  padding: 064px 32px 0px 32px;
+  margin-top: calc(48px + 87.8px);
+  isolation: isolate;
 `;
 
 export default App;
